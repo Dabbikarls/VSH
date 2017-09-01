@@ -1,0 +1,66 @@
+h1 {
+
+	color: blue;
+	text-align: center;
+}
+h2 {
+	color: darkred;
+}
+
+
+ div {
+margin-left: 75px;
+
+
+ }
+ strong {
+ 	color: red;
+
+ }
+ a {
+
+ 	color: red;
+
+ }
+ em {
+
+ 	color: blue;
+
+ }
+ body {
+ 	font-family: "Comic Sans MS", cursive, sans-serif;
+ 	width: 50em;
+ 	border: 1px solid blue;
+ 	padding: 25px;
+ 	margin: 20px;
+ }
+ ul {
+ 	color: green;
+
+ }
+h1.raudur  {
+	color: red;
+}
+h2.svartur {
+	color: black;
+}
+
+
+
+a:visited{
+	
+	color:blue;
+	
+}
+a:active{
+	
+	color:lightblue;
+	
+}
+ a:hover
+{
+
+	color: purple;
+
+
+}
