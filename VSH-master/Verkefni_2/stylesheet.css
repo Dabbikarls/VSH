@@ -1,0 +1,30 @@
+h1.simple {
+	border:3px solid green;
+	margin:25px;
+}
+h1.solid {
+	color:red;
+	border: 3px solid green;
+	margin: 25px;
+	padding: 3px;
+
+
+}
+h1.dashed {
+	border:6px dashed blue;
+	margin:25px;
+	padding: 20px;
+
+
+}
+
+div.hard {
+	border:3px solid red;
+	margin:25px;
+	padding: 35px;
+}
+div.pro {
+	border:3px solid red;
+	margin:25px;
+	padding: 35px;
+}

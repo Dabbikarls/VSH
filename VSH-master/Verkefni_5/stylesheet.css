@@ -1,0 +1,46 @@
+ * {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+	margin: 1em auto;
+}
+.header {
+	background: tomato;
+	padding: 15px;
+	text-align: center;
+	color:white;
+	font-size: 20px;
+}
+.footer {
+	background: green;
+}
+.midja {
+	background: cyan;
+	padding:40px;
+	text-align: center;
+
+}
+.aside2 {
+	padding: 55px;
+	text-align: center;
+	background: gold;
+}
+.aside1 {
+	padding: 55px;
+	text-align: center;
+	background: blue;
+}
+.aside2 ,
+.midja ,
+.aside1 {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.midja1 {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+}

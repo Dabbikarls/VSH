@@ -1,0 +1,28 @@
+li.kassi {
+	display:block-inline;
+	padding: 1em;
+	margin: 1em;
+	border:3px dashed green;
+
+}
+body {
+	margin: 40px;
+	padding:15px;
+}
+ul.kassi1 {
+	display: inline;
+	padding: 1em;
+	margin-right: center;
+	margin-left: center; 
+	border:3px dashed blue;
+	color:red;
+}
+ul.kassi2 {
+	display: inline-block;
+	padding:1em;
+	margin: 1em;
+	border: 3px dashed red ;
+
+
+
+}
