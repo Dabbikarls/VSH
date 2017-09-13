@@ -1,10 +1,44 @@
- * {
-    box-sizing: border-box;
- }
- body {
-	max-width: 60em;
-	margin: 1em auto;
+* {
+	box-sizing: border-box;
 }
-.border {
+html { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+	max-width: 50em;
+	border: 1px solid cyan;
+	padding: 1em;
+	margin: 1em auto; 
+}
+h1.solid {
+	color:red;
 	border: 3px solid black;
+	margin: 2px;
+	padding: 3px;
+	text-align: center;
+}
+p.simple {
+	
+	margin:1px;
+	padding:2px;
+	font-family: Sans-serif, Serif;
+	font-size: 30px;
+
+}
+p.soft {
+
+	margin:1px;
+	padding:2px;
+	font-family: Sans-serif, Serif;
+	font-size: 40px;
+	text-align: center;
+
+}
+.container {
+	background-color: white;
+	padding:5px;
 }
